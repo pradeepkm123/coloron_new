@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" fill="none">
+  <!-- Truck body -->
+  <path d="M12 28h34v26H12z" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round" fill="#f8fafc"/>
+  <path d="M46 36h14l8 10v8H46V36z" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round" fill="#f8fafc"/>
+  <path d="M46 40h12l5 6h-17v-6z" fill="#cbd5e1"/>
+  <!-- Wheels -->
+  <circle cx="24" cy="54" r="6" fill="#ffffff" stroke="#4b5563" stroke-width="2.5"/>
+  <circle cx="24" cy="54" r="2.5" fill="#f59e0b"/>
+  <circle cx="58" cy="54" r="6" fill="#ffffff" stroke="#4b5563" stroke-width="2.5"/>
+  <circle cx="58" cy="54" r="2.5" fill="#f59e0b"/>
+  <!-- GPS Antenna Signal Pin -->
+  <circle cx="29" cy="18" r="7" fill="#ea580c" opacity="0.15"/>
+  <path d="M29 13a4 4 0 0 1 4 4c0 3-4 7-4 7s-4-4-4-7a4 4 0 0 1 4-4z" fill="#ea580c"/>
+  <circle cx="29" cy="17" r="1.5" fill="#ffffff"/>
+  <!-- Signal waves -->
+  <path d="M36 14a9 9 0 0 1 0 8" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M22 14a9 9 0 0 0 0 8" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+</svg>

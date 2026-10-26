@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" fill="none">
+  <!-- School bus outline -->
+  <path d="M12 28h38v24H12z" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round" fill="#f8fafc"/>
+  <path d="M50 34h12l6 8v10H50V34z" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round" fill="#f8fafc"/>
+  <!-- Windows -->
+  <rect x="16" y="32" width="8" height="8" rx="1" fill="#e2e8f0" stroke="#4b5563" stroke-width="1.5"/>
+  <rect x="28" y="32" width="8" height="8" rx="1" fill="#e2e8f0" stroke="#4b5563" stroke-width="1.5"/>
+  <rect x="40" y="32" width="8" height="8" rx="1" fill="#e2e8f0" stroke="#4b5563" stroke-width="1.5"/>
+  <path d="M50 36h10l4 6H50z" fill="#cbd5e1"/>
+  <!-- Wheels -->
+  <circle cx="22" cy="52" r="5.5" fill="#ffffff" stroke="#4b5563" stroke-width="2.5"/>
+  <circle cx="22" cy="52" r="2" fill="#16a34a"/>
+  <circle cx="56" cy="52" r="5.5" fill="#ffffff" stroke="#4b5563" stroke-width="2.5"/>
+  <circle cx="56" cy="52" r="2" fill="#16a34a"/>
+  <!-- Bus stop line / stripe -->
+  <path d="M12 44h56" stroke="#16a34a" stroke-width="2"/>
+  <!-- Attendance check clipboard / tablet overlay -->
+  <rect x="46" y="14" width="22" height="26" rx="3" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="52" y="11" width="10" height="4" rx="1" fill="#2563eb"/>
+  <path d="M51 22h12M51 27h12M51 32h8" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="62" cy="32" r="3" fill="#16a34a"/>
+  <path d="M60.8 32l.8.8 1.6-1.6" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

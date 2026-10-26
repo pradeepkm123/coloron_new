@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" fill="none">
+  <!-- School Gate / Building Structure -->
+  <path d="M16 32l24-12 24 12v30H16V32z" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round" fill="#f8fafc"/>
+  <path d="M12 32h56" stroke="#4b5563" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Gate arch / entrance passage -->
+  <path d="M30 62V44a10 10 0 0 1 20 0v18" stroke="#4b5563" stroke-width="2" fill="#ffffff"/>
+  <!-- Windows -->
+  <rect x="22" y="38" width="5" height="7" rx="1" fill="#cbd5e1"/>
+  <rect x="53" y="38" width="5" height="7" rx="1" fill="#cbd5e1"/>
+  <!-- Turnstile Swing Barrier / Badge Scanner -->
+  <circle cx="40" cy="27" r="4.5" fill="#16a34a" opacity="0.2"/>
+  <circle cx="40" cy="27" r="2.5" fill="#16a34a"/>
+  <!-- Speed Gate Swing Flaps -->
+  <path d="M33 54h6M47 54h-6" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Verified Check / Radio Wave -->
+  <path d="M37 50l2 2 4-4" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

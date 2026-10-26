@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 380" width="100%" height="100%" fill="none">
+  <!-- Background subtle grid -->
+  <rect width="460" height="380" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Command Center Block (Top) -->
+  <path d="M170 30h120l12 18-12 18H170l-12-18z" fill="#ea580c"/>
+  <text x="230" y="54" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700" font-family="system-ui, sans-serif">Command Center</text>
+
+  <!-- Server Monitor icon box -->
+  <rect x="205" y="78" width="50" height="38" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="213" y="84" width="34" height="20" rx="2" fill="#0f172a"/>
+  <circle cx="230" cy="94" r="4" fill="#22c55e"/>
+  <path d="M225 116h10" stroke="#94a3b8" stroke-width="2"/>
+  <text x="230" y="128" text-anchor="middle" fill="#64748b" font-size="9" font-family="system-ui, sans-serif">VMS Server</text>
+
+  <!-- Connecting Line Down to 4G Network -->
+  <line x1="230" y1="134" x2="230" y2="160" stroke="#ea580c" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- 4G Network Cloud Badge -->
+  <rect x="208" y="160" width="44" height="26" rx="13" fill="#ea580c"/>
+  <text x="230" y="177" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="700" font-family="system-ui, sans-serif">4G</text>
+
+  <!-- Line branching out to In-Vehicle devices -->
+  <line x1="230" y1="186" x2="230" y2="216" stroke="#ea580c" stroke-width="2"/>
+  <line x1="70" y1="216" x2="390" y2="216" stroke="#ea580c" stroke-width="2"/>
+
+  <!-- Device 1: Mobile Camera (Left) -->
+  <line x1="70" y1="216" x2="70" y2="242" stroke="#ea580c" stroke-width="2"/>
+  <rect x="35" y="242" width="70" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="70" cy="272" r="16" fill="#f1f5f9" stroke="#ea580c" stroke-width="2"/>
+  <circle cx="70" cy="272" r="8" fill="#1e293b"/>
+  <circle cx="67" cy="269" r="2.5" fill="#38bdf8"/>
+  <text x="70" y="326" text-anchor="middle" fill="#1e293b" font-size="10" font-weight="600" font-family="system-ui, sans-serif">Mobile Camera</text>
+  <text x="70" y="338" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="system-ui, sans-serif">(1080p IR)</text>
+
+  <!-- Device 2: Mobile Recorder / NVR (Center-Left) -->
+  <line x1="175" y1="216" x2="175" y2="242" stroke="#ea580c" stroke-width="2"/>
+  <rect x="140" y="242" width="70" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="150" y="260" width="50" height="28" rx="3" fill="#1e293b"/>
+  <circle cx="158" cy="274" r="2" fill="#22c55e"/>
+  <circle cx="164" cy="274" r="2" fill="#3b82f6"/>
+  <text x="175" y="326" text-anchor="middle" fill="#1e293b" font-size="10" font-weight="600" font-family="system-ui, sans-serif">Mobile NVR</text>
+  <text x="175" y="338" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="system-ui, sans-serif">(AI + GPS)</text>
+
+  <!-- Device 3: Panic Button (Center-Right) -->
+  <line x1="285" y1="216" x2="285" y2="242" stroke="#ea580c" stroke-width="2"/>
+  <rect x="250" y="242" width="70" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <circle cx="285" cy="272" r="16" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="285" cy="272" r="8" fill="#ef4444"/>
+  <text x="285" y="326" text-anchor="middle" fill="#1e293b" font-size="10" font-weight="600" font-family="system-ui, sans-serif">Panic Alarm</text>
+  <text x="285" y="338" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="system-ui, sans-serif">(Instant SOS)</text>
+
+  <!-- Device 4: Trailer Door Sensor (Right) -->
+  <line x1="390" y1="216" x2="390" y2="242" stroke="#ea580c" stroke-width="2"/>
+  <rect x="355" y="242" width="70" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="372" y="260" width="16" height="24" rx="2" fill="#ea580c"/>
+  <rect x="392" y="260" width="10" height="24" rx="2" fill="#cbd5e1"/>
+  <text x="390" y="326" text-anchor="middle" fill="#1e293b" font-size="10" font-weight="600" font-family="system-ui, sans-serif">Cargo Sensor</text>
+  <text x="390" y="338" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="system-ui, sans-serif">(Lock &amp; Temp)</text>
+
+  <!-- In-Vehicle Platform Tag -->
+  <rect x="135" y="356" width="190" height="18" rx="9" fill="#fed7aa"/>
+  <text x="230" y="369" text-anchor="middle" fill="#9a3412" font-size="9" font-weight="700" font-family="system-ui, sans-serif">IN-VEHICLE INTELLIGENT IOT</text>
+</svg>

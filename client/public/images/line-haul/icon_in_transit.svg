@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" fill="none">
+  <!-- Isometric cargo box -->
+  <path d="M40 18l24 12v26L40 68 16 56V30z" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round" fill="#f8fafc"/>
+  <path d="M40 18v50" stroke="#4b5563" stroke-width="2" stroke-dasharray="3 3"/>
+  <path d="M16 30l24 14 24-14" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Parcel tape / seal band -->
+  <path d="M34 21.5l12 7v33l-12-6.5z" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <!-- Security Padlock / Shield in Orange -->
+  <circle cx="56" cy="48" r="11" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <rect x="51" y="47" width="10" height="7" rx="1.5" fill="#ea580c"/>
+  <path d="M53.5 47v-2.5a2.5 2.5 0 0 1 5 0V47" stroke="#ea580c" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="56" cy="50.5" r="1" fill="#ffffff"/>
+  <!-- Speed motion lines -->
+  <path d="M12 36h-4" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M10 44h-5" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M13 52h-4" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+</svg>

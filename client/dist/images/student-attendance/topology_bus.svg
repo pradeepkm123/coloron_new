@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" width="100%" height="100%" fill="none">
+  <!-- Background subtle grid -->
+  <rect width="460" height="300" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Left: School Bus Block -->
+  <g transform="translate(30, 70)">
+    <rect width="130" height="150" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="65" y="24" text-anchor="middle" fill="#16a34a" font-size="11" font-weight="700" font-family="system-ui, sans-serif">On-Board School Bus</text>
+    
+    <!-- Mini yellow bus icon -->
+    <rect x="25" y="38" width="80" height="40" rx="4" fill="#fef08a" stroke="#ca8a04" stroke-width="1.5"/>
+    <circle cx="45" cy="78" r="6" fill="#1e293b"/>
+    <circle cx="85" cy="78" r="6" fill="#1e293b"/>
+    <rect x="35" y="44" width="16" height="14" rx="1" fill="#ffffff"/>
+    <rect x="58" y="44" width="16" height="14" rx="1" fill="#ffffff"/>
+    <rect x="80" y="44" width="16" height="14" rx="1" fill="#ffffff"/>
+
+    <!-- In-Bus Card Reader / Terminal -->
+    <rect x="25" y="96" width="80" height="38" rx="4" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+    <circle cx="42" cy="115" r="8" fill="#2563eb" opacity="0.15"/>
+    <circle cx="42" cy="115" r="4" fill="#2563eb"/>
+    <text x="58" y="112" fill="#1e293b" font-size="9" font-weight="600" font-family="system-ui, sans-serif">Face / Card</text>
+    <text x="58" y="124" fill="#64748b" font-size="8" font-family="system-ui, sans-serif">Attendance</text>
+  </g>
+
+  <!-- Connection: Bus to Mobile NVR -->
+  <line x1="160" y1="145" x2="200" y2="145" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="160" cy="145" r="3" fill="#16a34a"/>
+  <circle cx="200" cy="145" r="3" fill="#16a34a"/>
+
+  <!-- Center: Mobile NVR -->
+  <g transform="translate(200, 105)">
+    <rect width="90" height="80" rx="8" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <rect x="15" y="24" width="60" height="24" rx="2" fill="#1e293b"/>
+    <circle cx="25" cy="36" r="2" fill="#22c55e"/>
+    <circle cx="32" cy="36" r="2" fill="#3b82f6"/>
+    <text x="45" y="62" text-anchor="middle" fill="#1e293b" font-size="10" font-weight="700" font-family="system-ui, sans-serif">Mobile NVR</text>
+    <text x="45" y="73" text-anchor="middle" fill="#64748b" font-size="8" font-family="system-ui, sans-serif">(AE-MN5043)</text>
+  </g>
+
+  <!-- Connection: Mobile NVR to 4G Network -->
+  <line x1="290" y1="145" x2="330" y2="145" stroke="#16a34a" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- Right: Cloud / School Platform & Parent App -->
+  <g transform="translate(330, 70)">
+    <rect width="105" height="150" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="52" y="24" text-anchor="middle" fill="#2563eb" font-size="11" font-weight="700" font-family="system-ui, sans-serif">Campus Center</text>
+
+    <!-- School Server -->
+    <rect x="18" y="38" width="70" height="34" rx="3" fill="#0f172a"/>
+    <circle cx="28" cy="48" r="2" fill="#22c55e"/>
+    <circle cx="28" cy="56" r="2" fill="#3b82f6"/>
+    <text x="54" y="58" fill="#ffffff" font-size="8" font-family="system-ui, sans-serif">HikCentral</text>
+
+    <!-- Parent Mobile Phone Notification -->
+    <rect x="28" y="86" width="50" height="48" rx="4" fill="#f8fafc" stroke="#2563eb" stroke-width="1.5"/>
+    <rect x="36" y="94" width="34" height="6" rx="1" fill="#22c55e"/>
+    <text x="53" y="112" text-anchor="middle" fill="#1e293b" font-size="7.5" font-weight="600" font-family="system-ui, sans-serif">SMS Alert</text>
+    <text x="53" y="122" text-anchor="middle" fill="#16a34a" font-size="7" font-weight="700" font-family="system-ui, sans-serif">"Boarded 07:42"</text>
+  </g>
+
+  <!-- Bottom Tag -->
+  <rect x="130" y="260" width="200" height="22" rx="11" fill="#dcfce7"/>
+  <text x="230" y="275" text-anchor="middle" fill="#15803d" font-size="10" font-weight="700" font-family="system-ui, sans-serif">4G REAL-TIME TRANSIT TELEMETRY</text>
+</svg>

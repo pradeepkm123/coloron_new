@@ -1,0 +1,25 @@
+{
+  "name": "coloron-cctv-surveillance",
+  "version": "1.0.0",
+  "description": "Coloron Vision - Apple-aesthetic CCTV & AIoT surveillance platform",
+  "main": "server/src/server.js",
+  "scripts": {
+    "server": "node server/src/server.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix client",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "cctv",
+    "security",
+    "aiot",
+    "hikvision-alternative",
+    "mern"
+  ],
+  "author": "Coloron Vision",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  }
+}
