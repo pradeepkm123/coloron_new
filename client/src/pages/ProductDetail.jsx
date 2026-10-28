@@ -8,6 +8,7 @@ import {
   Play,
 } from 'lucide-react';
 import { fetchProductBySlug, fetchProducts, submitContact } from '../api/client';
+import { defaultProducts, getProductBySlugSync } from '../data/productsData';
 import ProductHighlightsSlider from '../components/ProductHighlightsSlider';
 import ProductDesignExplorer from '../components/ProductDesignExplorer';
 import ProductDescriptionsTabs from '../components/ProductDescriptionsTabs';
@@ -24,8 +25,9 @@ export default function ProductDetail() {
   const { slug } = useParams();
   const navigate = useNavigate();
 
-  const [product, setProduct] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const initialProduct = getProductBySlugSync(slug) || defaultProducts[0];
+  const [product, setProduct] = useState(initialProduct);
+  const [loading, setLoading] = useState(false);
   const [selectedImage, setSelectedImage] = useState(0);
 
   // Video modal state
@@ -38,45 +40,22 @@ export default function ProductDetail() {
 
   useEffect(() => {
     async function load() {
-      setLoading(true);
       try {
         let data = await fetchProductBySlug(slug);
-        if (!data) {
-          const allProducts = await fetchProducts();
-          data =
-            allProducts.find((p) => p.slug === slug || p.id === slug) ||
-            allProducts[0] || {
-              id: 'col-dome-x1',
-              slug: 'apex-dome-x-pro',
-              name: '4MP Dual Illumination Network Camera',
-              series: 'Pro AIoT Series',
-              tagline: 'See more. Protect better.',
-              description: 'Advanced imaging, intelligent detection and reliable performance — built for a safer tomorrow.',
-              price: 349,
-              badge: 'Flagship 4K',
-              resolution: '4MP (2688 × 1520 @ 30fps)',
-              minIllumination: '0.0003 Lux @ F1.0',
-              protection: 'IP67 Weatherproof & IK10',
-              nightVisionDistance: '40m ColorSense / 50m IR',
-              images: DEFAULT_CCTV_GALLERY,
-              specsOverview: {
-                'Optical Sensor': '1/1.2" Ultra-Sensitive BSI CMOS',
-                'Aperture': 'F1.0 Super Aperture',
-                'AI Engine': '16 TOPS Neural Processing Unit',
-                'Protection': 'IP67 Weatherproof & IK10 Vandal-Proof',
-                'Audio': 'Dual Mic Array + 2-Way Talk Speaker',
-              },
-            };
+        if (data) {
+          setProduct(data);
+        } else {
+          setProduct(getProductBySlugSync(slug) || defaultProducts[0]);
         }
-        setProduct(data);
       } catch (err) {
         console.error(err);
-      } finally {
-        setLoading(false);
+        setProduct(getProductBySlugSync(slug) || defaultProducts[0]);
       }
     }
     load();
-    window.scrollTo(0, 0);
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0);
+    }
   }, [slug]);
 
   const handleInquirySubmit = async (e) => {

@@ -11,10 +11,11 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 import { fetchDownloads, fetchFaqs } from '../api/client';
+import { defaultDownloads, defaultFaqs } from '../data/supportData';
 
 export default function Support() {
-  const [downloads, setDownloads] = useState([]);
-  const [faqs, setFaqs] = useState([]);
+  const [downloads, setDownloads] = useState(defaultDownloads);
+  const [faqs, setFaqs] = useState(defaultFaqs);
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
@@ -27,8 +28,8 @@ export default function Support() {
     async function load() {
       try {
         const [dls, fqs] = await Promise.all([fetchDownloads(), fetchFaqs()]);
-        setDownloads(dls);
-        setFaqs(fqs);
+        if (dls && dls.length > 0) setDownloads(dls);
+        if (fqs && fqs.length > 0) setFaqs(fqs);
       } catch (err) {
         console.error(err);
       }

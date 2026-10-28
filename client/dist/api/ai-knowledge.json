@@ -1,0 +1,795 @@
+{
+  "company": {
+    "name": "COLOR ON Vision",
+    "brand": "COLOR ON",
+    "tagline": "Pro Vision. In Every Light.",
+    "description": "Coloron Vision is an Apple-aesthetic professional AIoT video surveillance and optical security systems manufacturer and solutions provider. Delivering next-generation 4K ultra-low-light IP cameras, continuous 360° PTZ speed domes, enterprise RAID NVRs, radiometric thermal imaging, and biometric facial access terminals.",
+    "website": "https://coloron-new.onrender.com",
+    "certifications": [
+      "NDAA Section 889 Compliant (100% free of high-risk chipset bans)",
+      "ONVIF Profile S, Profile G, Profile T certified",
+      "ISO 9001 Quality Management System certified",
+      "CE, FCC, RoHS, IP67 Weatherproof, IK10 Vandal-Resistance certified"
+    ],
+    "warranty": {
+      "cameras": "3-Year Commercial Manufacturer Warranty",
+      "recorders": "5-Year Enterprise NVR & Storage Warranty",
+      "support": "24/7 Firmware Hotfixes, Advance Hardware Replacement for Certified Partners"
+    },
+    "keyTechnologies": [
+      {
+        "name": "ColorSense 24/7 Full Color",
+        "details": "Combines super-large F1.0 apertures collecting 4x more ambient photons with 1/1.2-inch BSI CMOS sensors and deep-learning neural ISP processing, achieving vivid daytime color even down to 0.0003 Lux total darkness."
+      },
+      {
+        "name": "TurboVision Analog HD",
+        "details": "Transmits uncompressed 5MP and 4K ultra-high-definition video, telemetry control, and coaxial audio over existing standard RG59/RG6 coaxial cable up to 500 meters without replacing legacy wiring."
+      },
+      {
+        "name": "AI Deep Learning NPU",
+        "details": "On-chip 16 TOPS neural accelerator categorizes moving targets into humans and vehicles in real-time, eliminating up to 98% of nuisance false alarms caused by rain, swaying trees, and small animals."
+      },
+      {
+        "name": "Autonomous 3.0 PTZ Auto-Tracking",
+        "details": "36x optical zoom pan-tilt-zoom domes automatically lock on and track vehicles and persons smoothly across 360° endless rotation at speeds up to 400° per second."
+      },
+      {
+        "name": "Bi-Spectrum Radiometric Thermography",
+        "details": "Simultaneously pairs uncooled radiometric vanadium oxide thermal sensors (-20°C to 550°C) with 4K optical starlight sensors for early fire detection, overheat warning, and zero-visibility perimeter security."
+      }
+    ],
+    "contact": {
+      "sales": "sales@coloronvision.com",
+      "support": "support@coloronvision.com",
+      "inquiries": "+1 (800) 555-COLORON"
+    }
+  },
+  "products": [
+    {
+      "id": "col-dome-x1",
+      "slug": "apex-dome-x-pro",
+      "name": "4MP Dual Illumination Network Camera",
+      "series": "Pro AIoT Series",
+      "tagline": "See more. Protect better.",
+      "category": "Network IP Cameras",
+      "subCategory": "Dual Illumination Cameras",
+      "price": 349,
+      "rating": 4.9,
+      "reviewsCount": 128,
+      "isFlagship": true,
+      "badge": "Flagship 4MP",
+      "resolution": "4MP (2688 × 1520 @ 30fps)",
+      "sensor": "1/1.2\" Ultra-Sensitive BSI CMOS",
+      "lens": "2.8mm - 12mm Motorized Varifocal",
+      "fov": "114.8° - 42.6° Horizontal",
+      "nightVisionType": "ColorSense 24/7 + Smart Dual Illumination",
+      "nightVisionDistance": "40m (131ft) Full Color / 50m IR",
+      "minIllumination": "0.0003 Lux @ (F1.0, AGC ON)",
+      "wdr": "130 dB True WDR",
+      "compression": "H.265+ / H.265 / H.264+ / MJPEG",
+      "aiFeatures": [
+        "Deep Learning Human & Vehicle Classification",
+        "Smart Dual Illumination Detection",
+        "Perimeter Guard & Virtual Line Crossing",
+        "Face Capture & Recognition (up to 30 faces/sec)",
+        "Unattended Baggage & Object Removal Alert"
+      ],
+      "protection": "IP67 Weatherproof & IK10 Vandal-Proof",
+      "power": "PoE (802.3af, Class 3) or 12V DC ± 25%",
+      "storage": "Built-in MicroSD slot up to 512GB + Cloud Sync",
+      "audio": "Dual High-Fidelity Microphones + Built-in Speaker (Two-Way)",
+      "casingMaterial": "Aerospace-grade Aluminum Alloy with Stealth Matte Finish",
+      "color": "Pure White & Matte Black",
+      "images": [
+        "/images/bullet_dual_edition.jpg",
+        "/images/bullet_front_lens.jpg",
+        "/images/bullet_black_angle.jpg",
+        "/images/bullet_white_angle.jpg"
+      ],
+      "description": "Advanced imaging, intelligent detection and reliable performance — built for a safer tomorrow. Featuring ColorSense ultra-low-light technology with F1.0 super aperture and 1/1.2\" BSI CMOS sensor.",
+      "specsOverview": {
+        "Optical Zoom": "4.2x Motorized Optical Zoom",
+        "Operating Temperature": "-30 °C to 60 °C (-22 °F to 140 °F)",
+        "Network Protocol": "ONVIF (Profile S/G/T), RTSP, HTTPS, IPv6, MQTT",
+        "Security": "AES-256 Encryption, TLS 1.3, IEEE 802.1X, Secure Boot",
+        "Weight": "890 g (1.96 lb)"
+      }
+    },
+    {
+      "id": "col-bullet-4k",
+      "slug": "sentinel-bullet-ultra-4k",
+      "name": "Sentinel Bullet Ultra 4K",
+      "series": "Extreme Range Series",
+      "tagline": "Uncompromising perimeter defense with laser-grade clarity.",
+      "category": "Network IP Cameras",
+      "subCategory": "Long-Range Bullets",
+      "price": 389,
+      "rating": 4.8,
+      "reviewsCount": 94,
+      "isFlagship": true,
+      "badge": "Long Range 4K",
+      "resolution": "4K (3840 × 2160 @ 30fps)",
+      "sensor": "1/1.8\" Progressive Scan CMOS",
+      "lens": "8mm - 32mm Telephoto Varifocal",
+      "fov": "42.2° - 15.1° Horizontal",
+      "nightVisionType": "Laser Matrix Smart Hybrid IR & Warm Spotlight",
+      "nightVisionDistance": "80m (262ft) IR / 50m ColorSense",
+      "minIllumination": "0.0005 Lux @ (F1.2, AGC ON)",
+      "wdr": "140 dB Super WDR",
+      "compression": "H.265+ / H.265 / H.264",
+      "aiFeatures": [
+        "Long-Distance License Plate Recognition (ANPR / LPR)",
+        "Vehicle Make & Color Classification",
+        "Smart Perimeter Intrusion Siren & Strobe Warning",
+        "False Alarm Filter (ignores pets, rain, leaves)"
+      ],
+      "protection": "IP67 Weatherproof, Salt-spray resistant finish",
+      "power": "PoE+ (802.3at) or 12V/24V DC",
+      "storage": "Dual MicroSD (up to 1TB total) + NAS/NVR export",
+      "audio": "Active Deterrence 110dB Audio Siren & Blue-Red Strobe",
+      "casingMaterial": "Titanium Matte Powder-Coated Die-Cast Alloy",
+      "color": "Stealth Black",
+      "images": [
+        "/images/bullet_dual_edition.jpg",
+        "/images/bullet_front_lens.jpg",
+        "/images/bullet_black_angle.jpg",
+        "/images/bullet_white_angle.jpg"
+      ],
+      "description": "The gold standard for industrial perimeters, logistics depots, and highway monitoring. Packed with an 8-32mm telephoto lens and built-in LPR (License Plate Recognition) neural accelerators, it pinpoints vehicle plates up to 70 meters away at speeds exceeding 120 km/h.",
+      "specsOverview": {
+        "Optical Zoom": "4x Telephoto Optical Zoom",
+        "Operating Temperature": "-40 °C to 65 °C (-40 °F to 149 °F)",
+        "Network Protocol": "ONVIF (Profile S/G/T), RTSP, HTTPS, RTMP",
+        "Security": "Hardware Secure Element, Digest Authentication",
+        "Weight": "1.25 kg (2.75 lb)"
+      }
+    },
+    {
+      "id": "col-ptz-360",
+      "slug": "matrix-ptz-speed-dome-360",
+      "name": "Matrix PTZ Speed Dome 360",
+      "series": "Apex Robotics Series",
+      "tagline": "Omnipresent awareness. 36x Optical Zoom. Endless 360° pan.",
+      "category": "PTZ Speed Domes",
+      "subCategory": "AI Auto-Tracking PTZ",
+      "price": 899,
+      "rating": 5,
+      "reviewsCount": 62,
+      "isFlagship": true,
+      "badge": "36x Optical Zoom",
+      "resolution": "4K UHD (3840 × 2160 @ 60fps)",
+      "sensor": "1/1.5\" Sony STARVIS 2 CMOS",
+      "lens": "5.7mm - 205.2mm (36x Optical Zoom, 16x Digital)",
+      "fov": "59.8° to 2.3° Horizontal",
+      "nightVisionType": "High-Power Smart Matrix IR + Laser Illuminator",
+      "nightVisionDistance": "250m (820ft) IR Night Vision",
+      "minIllumination": "0.0001 Lux @ (F1.5, AGC ON), 0 Lux with IR",
+      "wdr": "140 dB Optical WDR",
+      "compression": "H.265+ / H.265 / H.264",
+      "aiFeatures": [
+        "Autonomous 3.0 AI Auto-Tracking of Targets across 360°",
+        "Crowd Density Estimation & Loitering Heatmaps",
+        "Multi-Target Trajectory Tracking",
+        "Preset Patrol with 300 Guard Tours"
+      ],
+      "protection": "IP67 & IK10, Built-in Wiper and Defroster Heater",
+      "power": "Hi-PoE (60W) or 24V AC",
+      "storage": "MicroSD up to 512GB + Cloud Stream Broker",
+      "audio": "Line In/Out Audio Interface",
+      "casingMaterial": "Solid Aerospace Aluminum with Hydrophobic Front Glass",
+      "color": "Obsidian & Chrome Trim",
+      "images": [
+        "/images/apple_ptz_pro.jpg",
+        "/images/bullet_dual_edition.jpg",
+        "/images/cctv_lineup.jpg",
+        "/images/bullet_front_lens.jpg"
+      ],
+      "description": "A pinnacle of optical engineering. The Matrix PTZ features continuous 360° endless panning at up to 400°/second with ultra-smooth magnetic stepper motors. The 36x optical zoom resolves license plates and faces across soccer stadiums, airports, and city centers.",
+      "specsOverview": {
+        "Pan / Tilt Speed": "Pan: 0.1° to 400°/s, Tilt: 0.1° to 200°/s",
+        "Optical Zoom": "36x Continuous Optical Zoom",
+        "Operating Temperature": "-40 °C to 70 °C (-40 °F to 158 °F)",
+        "Heater & Wiper": "Integrated smart wiper with rain sensor",
+        "Weight": "4.8 kg (10.58 lb)"
+      }
+    },
+    {
+      "id": "col-turret-ai",
+      "slug": "lumina-turret-eyeball-5mp",
+      "name": "Lumina Turret Eye 5MP",
+      "series": "ColorSense Series",
+      "tagline": "Vivid color 24 hours a day. Zero infrared glare.",
+      "category": "Network IP Cameras",
+      "subCategory": "Turret Eyeball",
+      "price": 219,
+      "rating": 4.8,
+      "reviewsCount": 210,
+      "isFlagship": false,
+      "badge": "Best Seller",
+      "resolution": "5MP (2592 × 1944 @ 30fps)",
+      "sensor": "1/1.8\" Super Starlight CMOS",
+      "lens": "2.8mm Ultra-Wide Fixed Lens",
+      "fov": "109° Horizontal Field of View",
+      "nightVisionType": "ColorSense 24/7 Full Color with Warm Micro-LED",
+      "nightVisionDistance": "30m (98ft) Full Color Night Vision",
+      "minIllumination": "0.0005 Lux @ F1.0",
+      "wdr": "120 dB True WDR",
+      "compression": "H.265+ / H.265",
+      "aiFeatures": [
+        "Smart Motion Detection 4.0 (Human & Vehicle Filter)",
+        "Audio Exception Detection (Glass break, scream)",
+        "Virtual Perimeter Tripwire"
+      ],
+      "protection": "IP67 Weatherproof",
+      "power": "PoE (802.3af) or 12V DC",
+      "storage": "MicroSD up to 256GB",
+      "audio": "High-Sensitivity Noise-Canceling Microphone Built-in",
+      "casingMaterial": "Full Metal Body with Minimalist Eyeball Mount",
+      "color": "Pure Polar White",
+      "images": [
+        "/images/apple_turret_air.jpg",
+        "/images/bullet_front_lens.jpg",
+        "/images/cctv_hero_camera.png",
+        "/images/bullet_white_angle.jpg"
+      ],
+      "description": "Eliminate reflection, spider webs, and IR washout with the turret form-factor. Equipped with an F1.0 super-aperture lens, Lumina delivers daytime brilliance even on pitch-black moonless driveways and storefronts.",
+      "specsOverview": {
+        "Optical Zoom": "Fixed 2.8mm Focus",
+        "Operating Temperature": "-30 °C to 60 °C",
+        "Network Protocol": "ONVIF, RTSP, HTTP/HTTPS",
+        "Weight": "550 g"
+      }
+    },
+    {
+      "id": "col-thermal-dual",
+      "slug": "thermo-guard-dual-spectrum",
+      "name": "ThermoGuard Dual-Spectrum",
+      "series": "Industrial Bi-Spectrum",
+      "tagline": "See heat signatures through dense smoke, fog, and blackout.",
+      "category": "Thermal & Industrial",
+      "subCategory": "Bi-Spectrum Bullet",
+      "price": 1290,
+      "rating": 4.9,
+      "reviewsCount": 31,
+      "isFlagship": false,
+      "badge": "Thermal + 4K Optical",
+      "resolution": "Thermal: 640 × 512 + Optical: 4K (8MP)",
+      "sensor": "Vanadium Oxide Uncooled Focal Plane Arrays",
+      "lens": "Thermal 15mm + Optical 4-16mm Motorized",
+      "fov": "Thermal: 24.2° × 18.4°",
+      "nightVisionType": "Thermal Radiometric + Optical Starlight IR",
+      "nightVisionDistance": "Perimeter Human Detection up to 450m / Vehicle 1300m",
+      "minIllumination": "0 Lux (Thermal imaging requires no light whatsoever)",
+      "wdr": "Digital Detail Enhancement (DDE) + 120dB WDR",
+      "compression": "H.265 / H.264",
+      "aiFeatures": [
+        "Early Fire & Temperature Exception Alarm (-20°C to 550°C)",
+        "Smoking Detection in Hazardous Environments",
+        "Extreme Weather Perimeter Detection (Fog, Rain, Camouflage)"
+      ],
+      "protection": "IP67 Weatherproof, Corrosion-Resistant C5",
+      "power": "PoE+ or 24V AC",
+      "storage": "MicroSD up to 256GB",
+      "audio": "Built-in Speaker with Voice Prompt Alarm",
+      "casingMaterial": "Heavy-Duty Marine-Grade Alloy",
+      "color": "Titanium Matte White",
+      "images": [
+        "/images/bullet_dual_edition.jpg",
+        "/images/bullet_black_angle.jpg",
+        "/images/bullet_front_lens.jpg",
+        "/images/bullet_white_angle.jpg"
+      ],
+      "description": "Combines an uncooled radiometric thermal sensor with a high-resolution 4K optical camera. Ideal for electrical substations, waste recycling facilities, solar farms, and critical infrastructure requiring early fire and breach alerts.",
+      "specsOverview": {
+        "Temperature Accuracy": "±2 °C (±3.6 °F)",
+        "Operating Temperature": "-40 °C to 65 °C",
+        "Weight": "1.9 kg"
+      }
+    },
+    {
+      "id": "col-nvr-64ch",
+      "slug": "quantum-nvr-64-channel-ai",
+      "name": "Quantum NVR 64-Channel AI",
+      "series": "Enterprise Recording Engines",
+      "tagline": "Massive throughput. Centralized neural analytics. Zero latency.",
+      "category": "NVR & Video Storage",
+      "subCategory": "Enterprise Network Video Recorders",
+      "price": 1450,
+      "rating": 4.9,
+      "reviewsCount": 47,
+      "isFlagship": false,
+      "badge": "64 Channel / 8 SATA",
+      "resolution": "Up to 32MP Decoding per channel (384 Mbps incoming bandwidth)",
+      "sensor": "Quad-Core Enterprise 64-bit Server Processor + 16 NPU TOPS",
+      "lens": "N/A (Central Rackmount Recording Engine)",
+      "fov": "N/A",
+      "nightVisionType": "N/A",
+      "nightVisionDistance": "N/A",
+      "minIllumination": "N/A",
+      "wdr": "N/A",
+      "compression": "Smart H.265+ / Ultra H.265 / H.264",
+      "aiFeatures": [
+        "Centralized Face Recognition & Blacklist/Whitelist alerts",
+        "Acquaintance & Stranger Recognition",
+        "Cross-Camera Target Path Tracking (Trace a person across 64 cameras)",
+        "AI Smart Video Search (find red car or person in black jacket in seconds)"
+      ],
+      "protection": "2U Rackmount Steel Chassis with Redundant Cooling",
+      "power": "Dual Redundant Hot-Swappable 100-240V Power Supplies",
+      "storage": "8 × SATA HDDs up to 160TB (RAID 0, 1, 5, 6, 10 supported)",
+      "audio": "16-ch Audio Input / 2-ch Audio Output RCA",
+      "casingMaterial": "Cold-Rolled Commercial Steel",
+      "color": "Space Gray Rack Finish",
+      "images": [
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "The enterprise core of the Coloron security ecosystem. Capable of streaming, decoding, and archiving up to 64 4K IP cameras simultaneously with enterprise RAID 5/6 fail-safe storage, dual gigabit SFP fiber ports, and AI video metadata acceleration.",
+      "specsOverview": {
+        "RAID Support": "RAID 0, 1, 5, 6, 10, Hot Spare",
+        "Display Outputs": "2 × HDMI 4K (3840×2160) + 2 × VGA",
+        "Network Interfaces": "2 × 1000M RJ45 + 2 × SFP Fiber Slots",
+        "Dimensions": "2U 19-inch Rackmount (445 × 470 × 90 mm)",
+        "Weight": "8.5 kg (without HDDs)"
+      }
+    },
+    {
+      "id": "col-nvr-16ch",
+      "slug": "quantum-nvr-16-channel-poe",
+      "name": "Quantum NVR 16-Channel PoE",
+      "series": "Commercial Pro Series",
+      "tagline": "Plug-and-play PoE power. Built-in 4K local display.",
+      "category": "NVR & Video Storage",
+      "subCategory": "PoE Network Video Recorders",
+      "price": 499,
+      "rating": 4.8,
+      "reviewsCount": 115,
+      "isFlagship": false,
+      "badge": "16-Port PoE Built-in",
+      "resolution": "Up to 12MP Decoding (160 Mbps Bandwidth)",
+      "sensor": "Dual-Core High-Speed Video Engine",
+      "lens": "N/A",
+      "fov": "N/A",
+      "nightVisionType": "N/A",
+      "nightVisionDistance": "N/A",
+      "minIllumination": "N/A",
+      "wdr": "N/A",
+      "compression": "H.265+ / H.265 / H.264",
+      "aiFeatures": [
+        "Human and Vehicle Quick Filter Search",
+        "Smart Playback with motion skipping",
+        "Push alerts to Coloron Mobile App in under 0.5 seconds"
+      ],
+      "protection": "1U Compact Desktop / Rackmount Chassis",
+      "power": "Integrated 200W PoE Power Supply (16 × RJ45 PoE ports)",
+      "storage": "2 × SATA HDDs up to 32TB total",
+      "audio": "1-ch Audio In / 1-ch Audio Out",
+      "casingMaterial": "Sleek Brushed Metal Casing",
+      "color": "Space Black",
+      "images": [
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Designed for effortless deployment in retail outlets, luxury villas, and medium businesses. Plug standard ethernet cables directly from 16 Coloron cameras into the back — zero manual IP configuration required.",
+      "specsOverview": {
+        "PoE Ports": "16 × IEEE 802.3af/at RJ45 ports (200W Total Budget)",
+        "Display Outputs": "1 × HDMI 4K + 1 × VGA",
+        "Storage": "2 × SATA Slots (up to 16TB each)",
+        "Weight": "2.8 kg"
+      }
+    },
+    {
+      "id": "col-intercom-face",
+      "slug": "vertex-smart-access-intercom-terminal",
+      "name": "Vertex Smart Intercom & Face Terminal",
+      "series": "Access AIoT Series",
+      "tagline": "Frictionless 0.2-second facial recognition. 2-way video intercom.",
+      "category": "Access Control & Intercom",
+      "subCategory": "Facial Recognition Terminals",
+      "price": 479,
+      "rating": 4.9,
+      "reviewsCount": 88,
+      "isFlagship": false,
+      "badge": "AI Biometrics",
+      "resolution": "Dual 2MP Starlight Optical + IR Anti-Spoofing Sensors",
+      "sensor": "Dual Sensor with 3D Liveness Detection",
+      "lens": "Wide-Angle 120° Distortion-Free Lens",
+      "fov": "120° Horizontal",
+      "nightVisionType": "Warm Fill Light + Infrared for Dark Lobby Entry",
+      "nightVisionDistance": "3m Facial Recognition Range",
+      "minIllumination": "0 Lux with integrated fill light",
+      "wdr": "120 dB True WDR",
+      "compression": "H.264 / H.265",
+      "aiFeatures": [
+        "0.2s Dual-Camera Anti-Spoofing Face Recognition (prevents photos/masks)",
+        "Card (Mifare/DESFire), PIN Code, and Mobile Bluetooth/NFC keyless entry",
+        "Visitor SIP Video Intercom Calling to Smartphone App",
+        "Mask and Temperature check compliance"
+      ],
+      "protection": "IP65 Weatherproof & IK08 Surface Mount",
+      "power": "PoE (802.3af) or 12V DC",
+      "storage": "Stores 50,000 Faces & 100,000 Event Logs Locally",
+      "audio": "Echo-Canceling Noise Suppressing Speakerphone",
+      "casingMaterial": "Tempered Corning Gorilla Glass with Beveled Aircraft Aluminum",
+      "color": "Titanium Silver & Obsidian Glass",
+      "images": [
+        "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "An elegant blend of biometric access control, video surveillance, and high-definition video intercom. Welcomes staff and visitors with instant contactless unlock and crystal-clear mobile video calls.",
+      "specsOverview": {
+        "Display": "7-inch Ultra-Bright IPS Touchscreen (1024 × 600)",
+        "Face Capacity": "50,000 registered templates",
+        "Recognition Speed": "< 0.2 seconds per user",
+        "Lock Relays": "2 × Door Strike / Magnetic Lock Relays",
+        "Weight": "1.1 kg"
+      }
+    },
+    {
+      "id": "col-turret-analog",
+      "slug": "turbo-vision-5mp-analog-camera",
+      "name": "TurboVision 5MP Analog HD",
+      "series": "Turbo HD Series",
+      "tagline": "Ultra HD over existing coaxial cabling. Zero latency.",
+      "category": "Turbo HD / Analog",
+      "subCategory": "HD-TVI / AHD / CVI / CVBS",
+      "price": 89,
+      "rating": 4.7,
+      "reviewsCount": 154,
+      "isFlagship": false,
+      "badge": "Retrofit Ready",
+      "resolution": "5MP (2560 × 1944 @ 20fps)",
+      "sensor": "High-Performance 5MP CMOS",
+      "lens": "2.8mm or 3.6mm Fixed Lens",
+      "fov": "98° Horizontal",
+      "nightVisionType": "EXIR 2.0 Smart Infrared",
+      "nightVisionDistance": "30m (98ft) EXIR Night Vision",
+      "minIllumination": "0.01 Lux @ F1.2",
+      "wdr": "Digital WDR",
+      "compression": "Raw uncompressed signal over RG59/RG6 Coaxial",
+      "aiFeatures": [
+        "PIR Human Sensor with Flashing Alarm Light",
+        "Up-the-Coax (UTC) OSD Menu Control"
+      ],
+      "protection": "IP67 Weatherproof Metal Housing",
+      "power": "12V DC ± 25% or PoC (Power over Coax)",
+      "storage": "DVR Managed",
+      "audio": "Audio over Coaxial (Built-in mic)",
+      "casingMaterial": "Die-Cast Aluminum Eyeball Housing",
+      "color": "Polar White",
+      "images": [
+        "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Upgrade legacy analog coax systems to crisp 5MP high-definition video without rewiring. Works seamlessly over existing cables up to 500 meters.",
+      "specsOverview": {
+        "Video Output": "Switchable TVI / AHD / CVI / CVBS",
+        "Transmission Distance": "Up to 500m over RG59 Coaxial",
+        "Weight": "380 g"
+      }
+    },
+    {
+      "id": "col-wifi-pan-tilt",
+      "slug": "aura-smart-home-pan-tilt-ai",
+      "name": "Aura Smart Home 3K Pan & Tilt",
+      "series": "Smart Home Series",
+      "tagline": "Discreet luxury home security with privacy shutter mode.",
+      "category": "Network IP Cameras",
+      "subCategory": "Indoor Smart Cameras",
+      "price": 139,
+      "rating": 4.9,
+      "reviewsCount": 340,
+      "isFlagship": false,
+      "badge": "Smart Home 3K",
+      "resolution": "3K (2880 × 1620 @ 25fps)",
+      "sensor": "1/2.7\" Low-Noise CMOS",
+      "lens": "4mm F1.6 Wide Aperture",
+      "fov": "104° Diagonal (350° Pan / 80° Tilt coverage)",
+      "nightVisionType": "Starlight Sensor + Invisible 940nm IR (No red glow)",
+      "nightVisionDistance": "12m (40ft) Invisible Night Vision",
+      "minIllumination": "0.001 Lux",
+      "wdr": "Digital WDR",
+      "compression": "H.265",
+      "aiFeatures": [
+        "AI Human & Pet Tracking",
+        "Baby Crying & Glass Break Sound Detection",
+        "Physical Privacy Shutter (Lens rotates down inside housing)"
+      ],
+      "protection": "Indoor Use",
+      "power": "USB-C 5V / 2A + Dual-Band Wi-Fi 6 (2.4GHz / 5GHz)",
+      "storage": "MicroSD up to 256GB + Coloron Private Cloud",
+      "audio": "Two-Way Crystal Clear Audio with Noise Suppression",
+      "casingMaterial": "Matte Ceramic-Touch Polycarbonate",
+      "color": "Nordic White & Brushed Aluminum",
+      "images": [
+        "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Designed for modern interior architecture. Aura tracks children and pets smoothly, features a mechanical privacy blind when you are at home, and connects via blazing-fast Wi-Fi 6.",
+      "specsOverview": {
+        "Wi-Fi": "Dual-Band Wi-Fi 6 (802.11ax/b/g/n) 2.4 & 5GHz",
+        "Privacy Mode": "Physical lens rotation shield with 1-tap",
+        "Smart Integrations": "Apple HomeKit, Google Assistant, Amazon Alexa",
+        "Weight": "290 g"
+      }
+    }
+  ],
+  "solutions": [
+    {
+      "slug": "apartments",
+      "title": "Apartment & Multi-Family Residential Solution",
+      "category": "Residential & Commercial",
+      "summary": "Complete perimeter-to-doorstep security featuring ColorSense low-light cameras, touchless facial recognition lobby intercoms, and vehicle license plate recognition entry gates.",
+      "recommendedProducts": [
+        "Apex Dome X Pro",
+        "Vertex Smart Intercom & Face Terminal",
+        "Sentinel Bullet Ultra 4K"
+      ]
+    },
+    {
+      "slug": "factories",
+      "title": "Industrial Manufacturing & Factory Solution",
+      "category": "Industrial & Manufacturing",
+      "summary": "Comprehensive perimeter breach detection, assembly line AI visual inspection, employee safety PPE compliance monitoring, and thermal heat monitoring for transformer banks.",
+      "recommendedProducts": [
+        "Sentinel Bullet Ultra 4K",
+        "ThermoGuard Dual-Spectrum",
+        "Quantum NVR 64-Channel AI"
+      ]
+    },
+    {
+      "slug": "urban-roadways",
+      "title": "Urban Roadways & Metropolitan Traffic Solution",
+      "category": "Smart City & Traffic",
+      "summary": "Precision traffic flow monitoring, illegal parking and wrong-way violation capture, intersection ANPR multi-lane plate reading, and incident detection.",
+      "recommendedProducts": [
+        "Matrix PTZ Speed Dome 360",
+        "Sentinel Bullet Ultra 4K"
+      ]
+    },
+    {
+      "slug": "offices",
+      "title": "Corporate Offices & Enterprise HQ Solution",
+      "category": "Commercial & Enterprise",
+      "summary": "Frictionless 0.2-second facial recognition turnstiles, visitor management badging kiosks, server room dual-factor biometric access, and conference room surveillance.",
+      "recommendedProducts": [
+        "Vertex Smart Intercom & Face Terminal",
+        "Lumina Turret Eye 5MP",
+        "Quantum NVR 16-Channel PoE"
+      ]
+    },
+    {
+      "slug": "supermarkets",
+      "title": "Supermarkets & Retail Loss Prevention Solution",
+      "category": "Retail & Hospitality",
+      "summary": "POS cash register video overlay, AI customer foot-traffic heatmaps, aisle dwell-time analytics, and anti-shoplifting deterrence dome cameras.",
+      "recommendedProducts": [
+        "Lumina Turret Eye 5MP",
+        "Apex Dome X Pro",
+        "Quantum NVR 16-Channel PoE"
+      ]
+    },
+    {
+      "slug": "highways",
+      "title": "Highways & Motorways Surveillance Solution",
+      "category": "Smart City & Infrastructure",
+      "summary": "Long-range highway corridor monitoring with radar speed measurement, vehicle make/color classification, and fog-penetrating thermal optics.",
+      "recommendedProducts": [
+        "Matrix PTZ Speed Dome 360",
+        "ThermoGuard Dual-Spectrum"
+      ]
+    },
+    {
+      "slug": "warehouses",
+      "title": "Logistics Hubs & Warehouses Solution",
+      "category": "Logistics & Supply Chain",
+      "summary": "High-bay narrow-aisle inventory surveillance, loading dock truck turnaround tracking, and visual barcode-linked parcel damage tracing.",
+      "recommendedProducts": [
+        "Apex Dome X Pro",
+        "Quantum NVR 64-Channel AI",
+        "Sentinel Bullet Ultra 4K"
+      ]
+    },
+    {
+      "slug": "schools",
+      "title": "Schools & Educational Campuses Solution",
+      "category": "Education & Campus",
+      "summary": "Safe school campus perimeter fencing, automated student bus boarding attendance, anti-bullying restroom audio anomaly detection, and unified lockdown control.",
+      "recommendedProducts": [
+        "Apex Dome X Pro",
+        "Vertex Smart Intercom & Face Terminal"
+      ]
+    },
+    {
+      "slug": "solar-farms",
+      "title": "Solar Photovoltaic Farms Solution",
+      "category": "Energy & Utilities",
+      "summary": "Multi-kilometer perimeter thermal protection against metal theft, radiometric hot-spot detection for defective solar panels, and solar-powered autonomous PTZ domes.",
+      "recommendedProducts": [
+        "ThermoGuard Dual-Spectrum",
+        "Matrix PTZ Speed Dome 360"
+      ]
+    },
+    {
+      "slug": "electrical-substations",
+      "title": "Electrical Substations & Power Grid Solution",
+      "category": "Energy & Utilities",
+      "summary": "Continuous radiometric thermal monitoring of high-voltage transformers and switchgear to prevent catastrophic fire, combined with radar intrusion alerts.",
+      "recommendedProducts": [
+        "ThermoGuard Dual-Spectrum",
+        "Sentinel Bullet Ultra 4K"
+      ]
+    },
+    {
+      "slug": "parking-lots",
+      "title": "Commercial Parking Lots & Garages Solution",
+      "category": "Commercial & Traffic",
+      "summary": "Indoor parking space indicator cameras with integrated green/red vacancy LEDs, license plate entry/exit barrier control, and vehicle locator kiosks.",
+      "recommendedProducts": [
+        "Sentinel Bullet Ultra 4K",
+        "Apex Dome X Pro"
+      ]
+    },
+    {
+      "slug": "perimeter-protection",
+      "title": "Critical Infrastructure Perimeter Protection Solution",
+      "category": "High Security",
+      "summary": "Multi-layered perimeter defense fusing radar, thermal starlight imaging, virtual line tripwire alerts, and 110dB active deterrence strobes and sirens.",
+      "recommendedProducts": [
+        "Sentinel Bullet Ultra 4K",
+        "Matrix PTZ Speed Dome 360",
+        "ThermoGuard Dual-Spectrum"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How does Coloron ColorSense technology achieve full-color video in total darkness?",
+      "a": "ColorSense combines a super-large F1.0 aperture lens (collecting 4x more ambient photons than standard F2.0 lenses) with a 1/1.2-inch ultra-sensitive sensor and our dedicated ISP neural processing chip. Even at 0.0003 Lux, it renders accurate daytime-quality color without grain or motion blur."
+    },
+    {
+      "q": "Are Coloron cameras and NVRs compliant with NDAA and ONVIF?",
+      "a": "Yes. All Coloron enterprise tier products are fully NDAA Section 889 compliant with zero high-risk telecommunications chipsets. They also strictly conform to ONVIF Profile S, G, and T, allowing interoperability with Milestone, Genetec, and third-party systems."
+    },
+    {
+      "q": "Can I upgrade my existing analog coaxial CCTV to Coloron without rewiring?",
+      "a": "Absolutely. Our TurboVision series transmits pristine 5MP and 4K video alongside audio and telemetry controls directly over standard RG59 or RG6 coaxial cable up to 500 meters, saving tremendous cabling labor."
+    },
+    {
+      "q": "How does AI human and vehicle classification reduce false alarms?",
+      "a": "Traditional PIR or pixel-motion sensors trigger alerts on blowing trees, heavy rain, spiders, or small animals. Coloron's on-chip deep neural network analyzes every moving frame in real-time, filtering out up to 98% of false alarms and notifying you only when human or vehicle contours enter your designated zones."
+    },
+    {
+      "q": "What warranty and enterprise support does Coloron provide?",
+      "a": "Coloron provides a 3-year standard manufacturer warranty on all commercial cameras, a 5-year warranty on enterprise NVRs, and advance hardware replacement service for certified enterprise partners."
+    },
+    {
+      "q": "What video compression formats do Coloron cameras and recorders support?",
+      "a": "Coloron devices support Smart H.265+, Ultra H.265, H.264+, H.264, and MJPEG. Coloron Smart H.265+ delivers up to 75% bandwidth and storage savings compared to standard H.264 without compromising image quality."
+    },
+    {
+      "q": "Can Coloron IP cameras operate in extreme weather conditions?",
+      "a": "Yes. Coloron exterior cameras feature rugged IP67 weatherproof and IK10 vandal-resistant cast aluminum housings. Built-in industrial defroster heaters and automated wipers enable continuous operation in temperatures from -40°C to +70°C (-40°F to 158°F)."
+    },
+    {
+      "q": "How do I access Coloron CCTV systems remotely?",
+      "a": "Remote access is available via Coloron Connect mobile apps for iOS and Android, Coloron Guard Pro Client CMS for Windows and macOS (Apple Silicon native), and direct HTTPS web interfaces supporting modern Chromium browsers."
+    }
+  ],
+  "downloads": [
+    {
+      "id": "dl-1",
+      "category": "Firmware",
+      "title": "Apex Dome X Pro Firmware v5.7.4",
+      "releaseDate": "2025-08-15",
+      "version": "v5.7.4_build250815",
+      "fileSize": "68.4 MB",
+      "checksum": "SHA256: 8f2c38b4d96a01...",
+      "applicableModels": [
+        "Apex Dome X Pro",
+        "Apex Dome X Lite"
+      ],
+      "description": "Adds enhanced neural human-vehicle detection accuracy, RTSP over TLS 1.3, and improved ColorSense auto-white balance under sodium lighting."
+    },
+    {
+      "id": "dl-2",
+      "category": "Firmware",
+      "title": "Sentinel Bullet Ultra 4K Firmware v5.6.8",
+      "releaseDate": "2025-07-28",
+      "version": "v5.6.8_build250728",
+      "fileSize": "74.1 MB",
+      "checksum": "SHA256: 1d9a24c55e7b...",
+      "applicableModels": [
+        "Sentinel Bullet Ultra 4K"
+      ],
+      "description": "Enhanced LPR plate recognition engine with expanded European and Asian alphanumeric plate templates."
+    },
+    {
+      "id": "dl-3",
+      "category": "Firmware",
+      "title": "Matrix PTZ Speed Dome Firmware v6.1.2",
+      "releaseDate": "2025-09-01",
+      "version": "v6.1.2_build250901",
+      "fileSize": "92.0 MB",
+      "checksum": "SHA256: 3c44a2b918ef...",
+      "applicableModels": [
+        "Matrix PTZ Speed Dome 360"
+      ],
+      "description": "Smart 3.0 auto-tracking algorithmic speed boost; optimizes wiper timing cycle during low temperatures."
+    },
+    {
+      "id": "dl-4",
+      "category": "Software & Tools",
+      "title": "Coloron Guard Pro Client CMS (Windows)",
+      "releaseDate": "2025-08-20",
+      "version": "v4.2.0-win64",
+      "fileSize": "142 MB",
+      "checksum": "SHA256: f0e319984b2c...",
+      "applicableModels": [
+        "All Coloron NVRs & IP Cameras"
+      ],
+      "description": "Enterprise video management software for multi-monitor video walls, E-Maps, AI alert center, and PTZ joystick control."
+    },
+    {
+      "id": "dl-5",
+      "category": "Software & Tools",
+      "title": "Coloron Guard Pro Client CMS (macOS Apple Silicon)",
+      "releaseDate": "2025-08-20",
+      "version": "v4.2.0-arm64",
+      "fileSize": "136 MB",
+      "checksum": "SHA256: a176e331bfa2...",
+      "applicableModels": [
+        "All Coloron NVRs & IP Cameras"
+      ],
+      "description": "Native macOS client built for M1/M2/M3/M4 Apple Silicon with Metal hardware accelerated video decoding."
+    },
+    {
+      "id": "dl-6",
+      "category": "Software & Tools",
+      "title": "Coloron Batch Configuration & IP Tool",
+      "releaseDate": "2025-06-10",
+      "version": "v2.5.1",
+      "fileSize": "28 MB",
+      "checksum": "SHA256: 77a09c488e...",
+      "applicableModels": [
+        "All Network Products"
+      ],
+      "description": "Automatically discovers Coloron cameras across subnets, batch activates passwords, assigns static IPs, and updates firmware."
+    },
+    {
+      "id": "dl-7",
+      "category": "Mobile App",
+      "title": "Coloron Connect iOS (App Store)",
+      "releaseDate": "2025-08-29",
+      "version": "v3.8.2",
+      "fileSize": "85 MB",
+      "checksum": "iOS 15.0 or later",
+      "applicableModels": [
+        "All Cloud & P2P Models"
+      ],
+      "description": "Live 4K streaming, instant AI push notifications, 2-way audio intercom, and timeline scrub playback on iPhone & iPad."
+    },
+    {
+      "id": "dl-8",
+      "category": "Mobile App",
+      "title": "Coloron Connect Android (APK & Google Play)",
+      "releaseDate": "2025-08-29",
+      "version": "v3.8.2",
+      "fileSize": "78 MB",
+      "checksum": "Android 9.0 or later",
+      "applicableModels": [
+        "All Cloud & P2P Models"
+      ],
+      "description": "Secure P2P encrypted connection, live multi-grid view, PTZ touch virtual joystick, and clip export."
+    },
+    {
+      "id": "dl-9",
+      "category": "Manuals & Whitepapers",
+      "title": "ColorSense 24/7 Optical Whitepaper",
+      "releaseDate": "2025-05-12",
+      "version": "Rev 2.1",
+      "fileSize": "12.4 MB",
+      "checksum": "PDF",
+      "applicableModels": [
+        "All ColorSense Cameras"
+      ],
+      "description": "Deep technical breakdown of large F1.0 aperture physics, BSI sensor photodiode architecture, and AI-ISP color pipeline."
+    }
+  ],
+  "generatedAt": "2026-10-28T10:20:09.165Z"
+}
